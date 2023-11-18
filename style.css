@@ -97,7 +97,7 @@ header {
     border-radius: 15px;
     padding: 20px;
     position: relative;
-    top: 1000px;
+    top: 400px;
     z-index: 1;
     overflow: hidden;
 }
@@ -131,7 +131,7 @@ header {
 /* CSS-Code für die skills-box */
 .skills-container {
     position: relative;
-    top: 3500px;
+    top: 2000px;
     margin: 0 230px;
 }
 
@@ -173,7 +173,7 @@ header {
 #files-downloader {
     margin: 0 230px;
     position: relative;
-    top: 4400px;
+    top: 2300px;
     height: 2000px;
 }
 
