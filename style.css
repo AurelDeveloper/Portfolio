@@ -1,0 +1,196 @@
+body {
+    background-color: #000000;
+    color: #fff;
+    font-family: 'SF Compact Display', sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: left;
+    margin: 0;
+}
+
+h1 {
+    font-size: 70px;
+}
+
+p {
+    font-size: 20px;
+    color: #a9a9a9;
+}
+
+/* Stil für den Header */
+header {
+    width: 100%;
+    height: 50px;
+    padding: 0 10px;
+  }
+  
+  #name {
+    float: left;
+    margin-left: 50px;
+    margin-top: 20px;
+    font-size: 20px;
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  .social-media-link {
+    float: right;
+    margin-right: 50px;
+    margin-top: 20px;
+    font-size: 20px;
+    color: #ffffff;
+    text-decoration: none;
+  }  
+
+/* Stil für das Emoji Bild */
+#emoji {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#emoji img {
+    max-width: 40%;
+    max-height: 40%;
+    position: relative;
+    top: -23%;
+}
+
+/* Stil für das Intro */
+#intro {
+    margin: -250px 190px 0 190px;
+}
+
+#status-box {
+    background-color: #4CAF50;
+    color: #fff;
+    border-radius: 5px;
+    padding: 5px;
+    display: inline-block;
+    margin-top: 100px;
+}
+
+#intro p {
+    font-size: 25px;
+    color: #4b4b4b;
+    margin: 10px 0 -50px 0;
+}
+
+
+/* Neuer CSS-Code für die zentrierten Projektboxen */
+#projects {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    display: grid;
+}
+
+.project-box {
+    width: 650px;
+    height: 350px;
+    background-color: #1b1b1b;
+    margin: 20px;
+    border-radius: 15px;
+    padding: 20px;
+    position: relative;
+    top: 1000px;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.project-box h3 {
+    color: #fff;
+    font-size: 40px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.project-box p {
+    color: #ffffff;
+    font-size: 17px;
+    margin-left: 10px;
+    margin-right: 5000px;
+    margin-top: 10px;
+    margin-bottom: -10px;
+}
+
+.project-box img {
+    width: 300px;
+    height: 300px;
+    border-radius: 15px;
+    position: relative;
+    top: -30px;
+    left: 25%;
+    text-align: right;
+}
+
+/* CSS-Code für die skills-box */
+.skills-container {
+    position: relative;
+    top: 3500px;
+    margin: 0 230px;
+}
+
+.category {
+    margin: 60px 0;
+    position: relative;
+}
+
+.category h2 {
+    font-size: 35px;
+    margin-bottom: 15px;
+    color: #ffffff;
+}
+
+.skill {
+    text-align: left;
+    margin: 10px 0;
+}
+
+.skill-name {
+    font-weight: bold;
+}
+
+.skill-bar {
+    background-color: #ddd;
+    height: 20px;
+    border-radius: 50px;
+    margin-top: 5px;
+}
+
+.skill-progress {
+    background-color: #1b1b1b;
+    height: 100%;
+    border-radius: 50px;
+}
+
+
+/* CSS-code für die Files */
+#files-downloader {
+    margin: 0 230px;
+    position: relative;
+    top: 4400px;
+    height: 2000px;
+}
+
+.files-box {
+    margin-top: 120px;
+}
+
+.rounded-button {
+    background-color: #3498db;
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.rounded-button:hover {
+    background-color: #2980b9;
+}
