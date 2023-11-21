@@ -9,12 +9,7 @@ body {
 }
 
 h1 {
-    font-size: 70px;
-}
-
-p {
-    font-size: 20px;
-    color: #a9a9a9;
+    font-size: 100px;
 }
 
 /* Stil für den Header */
@@ -22,25 +17,25 @@ header {
     width: 100%;
     height: 50px;
     padding: 0 10px;
-  }
-  
-  #name {
+}
+
+#name {
     float: left;
     margin-left: 50px;
     margin-top: 20px;
     font-size: 20px;
     color: #ffffff;
     text-decoration: none;
-  }
-  
-  .social-media-link {
+}
+
+.social-media-link {
     float: right;
     margin-right: 50px;
     margin-top: 20px;
     font-size: 20px;
     color: #ffffff;
     text-decoration: none;
-  }  
+}
 
 /* Stil für das Emoji Bild */
 #emoji {
@@ -72,7 +67,7 @@ header {
 }
 
 #intro p {
-    font-size: 25px;
+    font-size: 40px;
     color: #4b4b4b;
     margin: 10px 0 -50px 0;
 }
@@ -174,7 +169,6 @@ header {
     margin: 0 230px;
     position: relative;
     top: 2300px;
-    height: 2000px;
 }
 
 .files-box {
@@ -194,3 +188,35 @@ header {
 .rounded-button:hover {
     background-color: #2980b9;
 }
+
+/*Footer Style*/
+  footer {
+    background-color: #1e1e1e;
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+
+  .social-box {
+    display: flex;
+  }
+
+  .social-icon {
+    margin-right: 10px;
+  }
+
+  #social-icon-youtube {
+    margin-right: 100px;
+  }
+
+  .social-icon img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+  }
+

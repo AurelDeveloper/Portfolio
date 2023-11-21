@@ -7,15 +7,16 @@
   <link href="https://db.onlinewebfonts.com/c/1e8a3c6b4719703b200378c73c3bf6e4?family=SF+Compact+Text+Bold"
     rel="stylesheet">
   <link href="https://fonts.cdnfonts.com/css/sf-compact-rounded" rel="stylesheet">
-
   <link rel="stylesheet" type="text/css" href="project.css">
   <link rel="stylesheet" type="text/css" href="/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
 <body>
   <header>
     <a class="social-media-link" href="https://github.com/AurelDeveloper">GitHub</a>
-    <a class="social-media-link" href="mailto:hinoran.marlon@gmail.com">Gmail</a>
+    <a class="social-media-link" href="hinoran.marlon@gmail.com">Gmail</a>
     <a id="name" href="/index.html">Marlon Hinoran</a>
   </header>
 
@@ -25,27 +26,40 @@
       <h3>Project Duration</h3>
       <p>I have completed small as well as larger projects over a period of 2 months.</p>
     </div>
-    <div id="right-paragraph" style="position: relative; top: 30px;">
+    <div id="right-paragraph" style="position: relative; top: 5px;">
       <h3>Why JavaScript?</h3>
       <p>Python is probably the most beginner-friendly programming language.</p>
     </div>
   </div>
 
-  <div class="presentation-img"><img src="/assets/img/projects/SmartNotesCalculator.jpeg"></div>
-
-  <div id="projects" style="margin-top: -400px;">
-    <a href="https://gist.github.com/AurelDeveloper/df58f4aeef3438762dc06fc096f80443" class="project-box">
+  <div id="js-project-box">
+    <div class="js-project-box">
       <p>PERSONAL PROJECT</p>
-      <h3>ScoreGen</h3>
-      <img style="margin-left: 140px; position: relative; top: -30px;" src="/assets/img/projects/ScoreGen.png">
-    </a>
-
-    <a href="https://gist.github.com/AurelDeveloper/7100f99981cd9a443d16cab546bbac07" class="project-box">
+      <button onclick="window.location.href='https://github.com/AurelDeveloper/ScoreGen'">GitHub</button>
+      <button onclick="window.location.href='https://score-generator.onrender.com'">Website</button>
+      <h2>ScoreGen</h2>
+      <img src="/assets/img/projects/ScoreGen.png" style="position:relative; top: -40px; left: 300px;">
+    </div>
+    <div class="js-project-box">
       <p>PERSONAL PROJECT</p>
-      <h3>BuyList</h3>
-      <img style="margin-left: 140px; position: relative; top: -30px;" src="/assets/img/projects/BuyList.png">
-    </a>
+      <button
+        onclick="window.location.href='https://gist.github.com/AurelDeveloper/d2fcb86b0bf6840a7ed2a14294efb5c7'">GitHub</button>
+      <button onclick="window.location.href='https://buy-list-aureldeveloper.onrender.com'">Website</button>
+      <h2>BuyList</h2>
+      <img src="/assets/img/projects/BuyList.png" style="position:relative; top: -40px; left: 300px;">
+    </div>
   </div>
+
+  <footer style="position: relative; top: 1700px;">
+    &copy; 2023 Marlon Hinoran. All Rights Reserved.
+    <div class="social-box">
+      <div class="social-icon"><a href="https://github.com/AurelDeveloper"><img
+            src="/assets/img/projects/github.png"></a></div>
+      <div class="social-icon"><a href="#"><img src="/assets/img/projects/mail.png"></a></div>
+      <div id="social-icon-youtube" class="social-icon"><a href="https://www.youtube.com/@aurel.visual"><img
+            src="/assets/img/projects/youtube.png"></a></div>
+    </div>
+  </footer>
 
   <script src="script.js"></script>
 </body>
