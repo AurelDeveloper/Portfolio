@@ -28,6 +28,10 @@ header {
     text-decoration: none;
 }
 
+#social-media-link-github{
+    margin-right: 200px;
+}
+
 .social-media-link {
     float: right;
     margin-right: 50px;
