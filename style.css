@@ -21,7 +21,7 @@ header {
 
 #name {
     float: left;
-    margin-left: 50px;
+    margin-left: 200px;
     margin-top: 20px;
     font-size: 20px;
     color: #ffffff;
@@ -54,7 +54,7 @@ header {
 
 /* Stil für das Intro */
 #intro {
-    margin: -250px 190px 0 190px;
+    margin: -250px 400px 0 400px;
 }
 
 #status-box {
@@ -127,7 +127,7 @@ header {
 .skills-container {
     position: relative;
     top: 2000px;
-    margin: 0 230px;
+    margin: 0 500px;
 }
 
 .category {
@@ -176,8 +176,8 @@ header {
     justify-content: space-between;
     position: relative;
     top: 2300px;
-    margin-left: 180px;
-    margin-right: 180px;
+    margin-left: 450px;
+    margin-right: 450px;
 }
 
 .files-download-box {
