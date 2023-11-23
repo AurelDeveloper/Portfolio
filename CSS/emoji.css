@@ -1,0 +1,13 @@
+#emoji {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#emoji img {
+    max-width: 40%;
+    max-height: 40%;
+    position: relative;
+    top: -23%;
+}

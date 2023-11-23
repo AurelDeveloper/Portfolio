@@ -1,0 +1,28 @@
+.files-box {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: 2300px;
+    margin-left: 450px;
+    margin-right: 450px;
+}
+
+.files-download-box {
+    width: 30%;
+    height: 250px;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: #1e1e1e;
+    margin: 50px;
+    box-sizing: border-box;
+    padding: 25px;
+}
+
+.download-button {
+    background-color: #000000;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
