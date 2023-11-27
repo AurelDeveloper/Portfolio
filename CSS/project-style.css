@@ -1,9 +1,9 @@
-/*Project Intro*/
+/* Project Intro */
 .project-intro {
     margin: 0;
     padding: 0;
     text-align: center;
-    margin-top: 200px; 
+    margin-top: 200px;
 }
 
 #left-paragraph {
@@ -36,7 +36,7 @@
     top: 300px;
 }
 
-/*Project explication box*/
+/* Project explanation box */
 .project-explication {
     margin-top: 600px;
 }
@@ -73,7 +73,7 @@
     color: #ffffff;
 }
 
-/*Project link box*/
+/* Project link box */
 #js-project-box {
     position: absolute;
     left: 0;
@@ -131,7 +131,7 @@
     height: 300px;
 }
 
-/*Project info box*/
+/* Project info box */
 .features {
     padding: 300px 0;
     margin-left: 500px;
