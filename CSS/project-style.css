@@ -1,0 +1,165 @@
+/*Project Intro*/
+.project-intro {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    margin-top: 200px; 
+}
+
+#left-paragraph {
+    padding-right: 120px;
+    max-width: 200px;
+    margin: 0;
+    display: inline-block;
+    text-align: left;
+    color: #fff;
+}
+
+#right-paragraph {
+    padding-left: 120px;
+    max-width: 200px;
+    margin: 0;
+    display: inline-block;
+    text-align: right;
+    color: #fff;
+    position: relative;
+    top: -20px;
+}
+
+/* Style for the Image */
+.presentation-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center center;
+    position: relative;
+    top: 300px;
+}
+
+/*Project explication box*/
+.project-explication {
+    margin-top: 600px;
+}
+
+.project-explication h2 {
+    text-align: left;
+    margin-right: 500px;
+    margin-left: 1500px;
+    margin-top: 100px;
+    font-size: 35px;
+}
+
+.project-explication-box {
+    margin-bottom: 200px;
+}
+
+.project-explication-text {
+    margin-top: -80px;
+}
+
+.project-explication p {
+    text-align: left;
+    margin-right: 1100px;
+    margin-left: 600px;
+    font-size: 20px;
+    color: #fff;
+}
+
+.project-explication h4 {
+    text-align: left;
+    margin-right: 1000px;
+    margin-left: 600px;
+    font-size: 25px;
+    color: #ffffff;
+}
+
+/*Project link box*/
+#js-project-box {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    display: grid;
+}
+
+.js-project-box {
+    width: 650px;
+    height: 350px;
+    background-color: #1b1b1b;
+    margin: 20px;
+    border-radius: 15px;
+    padding: 20px;
+    position: relative;
+    top: 400px;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.js-project-box h2 {
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    margin-top: -55px;
+    margin-left: 10px;
+    text-decoration: none;
+}
+
+.js-project-box p {
+    color: #ffffff;
+    font-size: 17px;
+    margin-left: 10px;
+    margin-right: 500px;
+    margin-top: 10px;
+    margin-bottom: -10px;
+}
+
+.js-project-box button {
+    width: 100px;
+    height: 30px;
+    background-color: #fff;
+    border-radius: 50px;
+    position: relative;
+    top: 140px;
+    left: 10px;
+    display: grid;
+    margin-bottom: 14px;
+}
+
+.js-project-box img {
+    width: 300px;
+    height: 300px;
+}
+
+/*Project info box*/
+.features {
+    padding: 300px 0;
+    margin-left: 500px;
+    margin-right: 500px;
+}
+
+.features .container {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+}
+
+.features .container .box {
+    border-radius: 30px;
+    max-width: 400px;
+    background-color: rgb(24, 24, 24);
+    padding: 30px;
+}
+
+.features .container .box h3 {
+    font-size: 30px;
+    font-weight: bold;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.features button {
+    border-radius: 10px;
+    border-style: hidden;
+}
