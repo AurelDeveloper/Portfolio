@@ -7,12 +7,12 @@
   <!-- Externe Schriftarten -->
   <link href="https://fonts.cdnfonts.com/css/sf-compact-display?styles=16092" rel="stylesheet">
   <link href="https://db.onlinewebfonts.com/c/1e8a3c6b4719703b200378c73c3bf6e4?family=SF+Compact+Text+Bold"
-      rel="stylesheet">
+    rel="stylesheet">
   <link href="https://fonts.cdnfonts.com/css/sf-compact-rounded" rel="stylesheet">
 
   <!-- Eigenes CSS -->
-  <link rel="stylesheet" type="text/css" href="/style.css">
-  <link rel="stylesheet" type="text/css" href="/project-style.css">
+  <link rel="stylesheet" type="text/css" href="/CSS/style.css">
+  <link rel="stylesheet" type="text/css" href="/CSS/project-style.css">
 
   <!-- Stil für mobile Geräte -->
   <meta name="mobile-web-app-capable" content="yes">
@@ -24,7 +24,7 @@
   <meta property="og:description" content="Beschreibung deiner Website">
   <meta property="og:image" content="URL_zu_deinem_Thumbnail_Bild">
   <meta property="og:url" content="URL_deiner_Website">
-  
+
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
@@ -32,9 +32,13 @@
 
 <body>
   <header>
-    <a class="social-media-link" href="https://github.com/AurelDeveloper">GitHub</a>
-    <a class="social-media-link" href="mailto:hinoran.marlon@gmail.com">Gmail</a>
-    <a id="name" href="/HTML/index.html">Marlon Hinoran</a>
+    <div class="logo">
+      <a href="index.html">Marlon Hinoran</a>
+    </div>
+    <div class="nav-links">
+      <a href="https://github.com/AurelDeveloper">GitHub</a>
+      <a href="mailto:hinoran.marlon@gmail.com">Mail</a>
+    </div>
   </header>
 
   <div class="project-intro">
@@ -59,36 +63,37 @@
     <div class="project-explication-box">
       <h2>Algorithm</h2>
       <div class="project-explication-text">
-      <h4>Calculate Average:</h4>
-      <p>The code starts by calculating the average from the given data.</p>
+        <h4>Calculate Average:</h4>
+        <p>The code starts by calculating the average from the given data.</p>
 
-      <h4>Calculate Standard Deviation:</h4>
-      <p>After obtaining the average, the code calculates the standard deviation. This statistical measure indicates the
-        amount of variation or dispersion in a set of values.</p>
+        <h4>Calculate Standard Deviation:</h4>
+        <p>After obtaining the average, the code calculates the standard deviation. This statistical measure indicates
+          the
+          amount of variation or dispersion in a set of values.</p>
 
-      <h4>Filter Outliers:</h4>
-      <p>Using the standard deviation, the code filters out outliers from the data. Outliers are values that
-        significantly differ from the average.</p>
+        <h4>Filter Outliers:</h4>
+        <p>Using the standard deviation, the code filters out outliers from the data. Outliers are values that
+          significantly differ from the average.</p>
 
-      <h4>Threshold for Grade Calculation:</h4>
-      <p>The standard deviation is used to determine the point at which the grade calculation threshold changes. This
-        threshold indicates the point at which the grade assigned to a score changes.</p>
+        <h4>Threshold for Grade Calculation:</h4>
+        <p>The standard deviation is used to determine the point at which the grade calculation threshold changes. This
+          threshold indicates the point at which the grade assigned to a score changes.</p>
 
-      <h4>Grade Calculation:</h4>
-      <p>Once the threshold is established, the code proceeds to calculate the grades based on the provided criteria.
-        It's mentioned that this part of the code was programmed by your father.</p>
+        <h4>Grade Calculation:</h4>
+        <p>Once the threshold is established, the code proceeds to calculate the grades based on the provided criteria.
+          It's mentioned that this part of the code was programmed by your father.</p>
 
-      <p>Overall, the code seems to be a grading system that takes into account the average, standard deviation, and
-        specific criteria to assign grades to different scores.</p>
+        <p>Overall, the code seems to be a grading system that takes into account the average, standard deviation, and
+          specific criteria to assign grades to different scores.</p>
       </div>
     </div>
     <div class="project-explication-box">
       <h2>Challenges</h2>
       <div class="project-explication-text">
-      <p>
-        Finding and understanding mathematical concepts, getting back into the project after taking a break.
-      </p>
-    </div>
+        <p>
+          Finding and understanding mathematical concepts, getting back into the project after taking a break.
+        </p>
+      </div>
     </div>
     <div class="project-explication-box">
       <h2>Solutions</h2>
@@ -97,8 +102,8 @@
         My father explained the mathematical concepts to me. Getting back into it was partly solved with comments and
         cleaner code.
       </p>
-      </div>
     </div>
+  </div>
   </div>
 
   <div class="features" id="features">

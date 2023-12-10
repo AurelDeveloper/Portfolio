@@ -15,12 +15,6 @@ h1 {
     font-size: 100px;
 }
 
-body {
-    margin: 0;
-    padding: 0;
-    font-family: Arial, sans-serif;
-}
-
 header {
     color: white;
     padding-left: 50px;
@@ -35,20 +29,16 @@ header {
     text-decoration: none;
     color: white;
     font-weight: bold;
+    max-width: 150px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
 }
 
 .nav-links a {
     text-decoration: none;
     color: white;
     margin-right: 10px;
-}
-
-/* Hier kannst du die maximale Breite des Links anpassen */
-.logo a {
-    max-width: 150px;
-    overflow: hidden;
-    white-space: nowrap;
-    text-overflow: ellipsis;
 }
 
 /* Styling for the emoji */
@@ -195,22 +185,18 @@ header {
 }
 
 /* Styling for the skill bar box */
-/* Comment added: Skill bar box styling */
 .skills-container {
-    position: relative;
-    top: 2000px;
-    margin: 0 500px;
+    margin: 20px;
+    margin-top: 2200px;
+    margin-right: 400px;
+    margin-left: 400px;
 }
 
 /* Styling for skill categories */
 .category {
-    margin: 60px 0;
-    position: relative;
+    margin: 20px 0;
     background-color: #1e1e1e;
-    padding-top: 10px;
-    padding-right: 40px;
-    padding-left: 40px;
-    padding-bottom: 30px;
+    padding: 20px;
     border-radius: 20px;
 }
 
@@ -248,26 +234,24 @@ header {
 }
 
 /* Files download box styling */
-/* Comment added: Files download box styling */
 .files-box {
     display: flex;
-    justify-content: space-between;
-    position: relative;
-    top: 2300px;
-    margin-left: 450px;
-    margin-right: 450px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px;
+    margin-top: 500px;
+    margin-left: 150px;
+    margin-right: 150px;
 }
 
 /* Styling for the files download box */
 .files-download-box {
     width: 30%;
-    height: 300px;
+    box-sizing: border-box;
     padding: 20px;
     border-radius: 20px;
     background-color: #1e1e1e;
-    margin: 50px;
-    box-sizing: border-box;
-    padding: 25px;
+    margin: 20px;
 }
 
 /* Styling for the download button */
@@ -280,18 +264,44 @@ header {
     cursor: pointer;
 }
 
+/* Media Query for smaller screens */
+@media screen and (max-width: 1000px) {
+    /* Adjust styles for smaller screens */
+    .category h2 {
+        font-size: 24px;
+    }
+    
+    .skills-container {
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+
+    .skill-bar {
+        height: 20px;
+        border-radius: 10px;
+    }
+
+    .files-download-box {
+        width: 100%;
+        max-width: none;
+    }
+
+    .files-box {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
+
 /* Footer styling */
 /* Comment added: Footer styling */
 footer {
     background-color: #1e1e1e;
     color: #fff;
-    padding: 30px 40px;
-    display: flex;
+    padding: 30px 50px;
     justify-content: space-between;
     align-items: center;
-    position: fixed;
-    bottom: 0;
     width: 100%;
+    margin-top: 500px;
 }
 
 /* Styling for the social box in the footer */
