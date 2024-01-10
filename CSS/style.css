@@ -299,13 +299,6 @@ footer {
     background-color: #1e1e1e;
     color: #fff;
     padding: 30px 50px;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
+    width: 150%;
     margin-top: 500px;
-}
-
-/* Styling for the social box in the footer */
-.social-box {
-    display: flex;
 }
