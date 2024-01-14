@@ -8,8 +8,6 @@ $(document).ready(function(){
         adaptiveHeight: true,
         centerMode: true, /* Enable center mode */
         centerPadding: '60px', /* Padding on the sides of the center slide. Adjust as needed. */
-        autoplay: true, /* Enable autoplay */
-        autoplaySpeed: 2000, /* Delay between slides (in ms) */
         arrows: false, /* Disable previous/next arrows */
     });
 });

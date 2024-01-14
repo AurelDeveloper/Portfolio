@@ -2,81 +2,74 @@
 <html>
 
 <head>
-  <title>Portfolio/Python - Marlon Hinoran</title>
+    <title>Portfolio/Python - Marlon Hinoran</title>
 
-  <!-- Externe Schriftarten -->
-  <link href="https://fonts.cdnfonts.com/css/sf-compact-display?styles=16092" rel="stylesheet">
-  <link href="https://db.onlinewebfonts.com/c/1e8a3c6b4719703b200378c73c3bf6e4?family=SF+Compact+Text+Bold"
-    rel="stylesheet">
-  <link href="https://fonts.cdnfonts.com/css/sf-compact-rounded" rel="stylesheet">
+    <!-- Eigenes CSS -->
+    <link rel="stylesheet" type="text/css" href="/CSS/style.css">
+    <link rel="stylesheet" type="text/css" href="/CSS/project-style.css">
 
-  <!-- Eigenes CSS -->
-  <link rel="stylesheet" type="text/css" href="/CSS/style.css">
-  <link rel="stylesheet" type="text/css" href="/CSS/project-style.css">
+    <link rel="icon" href="/assets/img/logos/MarlonHinoran.png">
 
-  <!-- Stil für mobile Geräte -->
-  <meta name="mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 
-  <!-- Open Graph-Meta-Tags -->
-  <meta property="og:title" content="Marlon-Hinoran-Portfolio">
-  <meta property="og:description" content="Beschreibung deiner Website">
-  <meta property="og:image" content="URL_zu_deinem_Thumbnail_Bild">
-  <meta property="og:url" content="URL_deiner_Website">
-
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-10">
+    <meta name="viewport" content="width=device-width, initial-scale=3.0">
 </head>
 
 <body>
-  <header>
-    <div class="logo">
-      <a href="/index.html">Marlon Hinoran</a>
-    </div>
-    <div class="nav-links">
-      <a href="https://github.com/AurelDeveloper">GitHub</a>
-      <a href="mailto:hinoran.marlon@gmail.com">Mail</a>
-    </div>
-  </header>
+    <header>
+        <div id="header-container">
+            <div class="logo">
+                <a href="/index.html">Marlon Hinoran</a>
+            </div>
+            <div class="nav-links">
+                <a href="https://github.com/AurelDeveloper">GitHub</a>
+                <a href="mailto:hinoran.marlon@gmail.com">Mail</a>
+            </div>
+          </div>
+    </header>
 
-  <div class="project-intro">
-    <h1>Learn Python</h1>
-    <div id="left-paragraph">
-      <h3>Project Duration</h3>
-      <p>I completed small Python projects over a period of 1 month.</p>
-    </div>
-    <div id="right-paragraph" style="position: relative; top: 0px;">
-      <h3>Why Python?</h3>
-      <p>Python is probably the most beginner-friendly programming language.</p>
-    </div>
-  </div>
+    <main>
+        <div class="project-intro">
+            <h1>Learn Python</h1>
+            <div id="left-paragraph">
+                <h3>Project Duration</h3>
+                <p>I completed small Python projects over a period of 1 month.</p>
+            </div>
+            <div id="right-paragraph">
+                <h3>Why Python?</h3>
+                <p>Python is probably the most beginner-friendly programming language.</p>
+            </div>
+          </div>
 
-  <div id="projects" style="margin-top: 30px;">
-    <a href="https://gist.github.com/AurelDeveloper/c7c0b1a3f386a1a934edfdd8d5f03304" class="project-box">
-      <p>IT'S A GIST</p>
-      <h3>GradeBook</h3>
-      <img style="margin-left: 140px; position: relative; top: -0px;" src="/assets/img/logos/GradeBook.png">
-    </a>
+        <section id="projects" style="margin-top: -200px;">
+            <a href="https://gist.github.com/AurelDeveloper/c7c0b1a3f386a1a934edfdd8d5f03304" class="project-box">
+                <p>IT'S A GIST</p>
+                <h3>GradeBook</h3>
+                <img style="margin-left: 140px; position: relative; top: -0px;" src="/assets/img/logos/GradeBook.png">
+            </a>
 
-    <a href="https://gist.github.com/AurelDeveloper/df58f4aeef3438762dc06fc096f80443" class="project-box">
-      <p>IT'S A GIST</p>
-      <h3>MatrixEffect</h3>
-      <img style="margin-left: 140px; position: relative; top: -0px;" src="/assets/img/logos/MatrixEffect.png">
-    </a>
+            <a href="https://gist.github.com/AurelDeveloper/df58f4aeef3438762dc06fc096f80443" class="project-box">
+                <p>IT'S A GIST</p>
+                <h3>MatrixEffect</h3>
+                <img style="margin-left: 140px; position: relative; top: -0px;" src="/assets/img/logos/MatrixEffect.png">
+            </a>
 
-    <a href="https://gist.github.com/AurelDeveloper/7100f99981cd9a443d16cab546bbac07" class="project-box">
-      <p>IT'S A GIST</p>
-      <h3>PyCalculator</h3>
-      <img style="margin-left: 140px; position: relative; top: -0px;" src="/assets/img/logos/PyCalculator.png">
-    </a>
-  </div>
+            <a href="https://gist.github.com/AurelDeveloper/7100f99981cd9a443d16cab546bbac07" class="project-box">
+                <p>IT'S A GIST</p>
+                <h3>PyCalculator</h3>
+                <img style="margin-left: 140px; position: relative; top: -0px;" src="/assets/img/logos/PyCalculator.png">
+            </a>
+        </section>
+    </main>
 
-  <footer style="position: relative; top: 1500px;">
-    &copy; 2023 Marlon Hinoran. All Rights Reserved.
-  </footer>
+    <footer style="margin-top: 2000px;">
+        &copy; 2023 Marlon Hinoran. All Rights Reserved.
+    </footer>
 
-  <script src="script.js"></script>
+    <script src="script.js"></script>
 </body>
 
 </html>

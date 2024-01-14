@@ -2,66 +2,60 @@
 <html>
 
 <head>
-  <title>Portfolio/js - Marlon Hinoran</title>
-
-  <!-- Externe Schriftarten -->
-  <link href="https://fonts.cdnfonts.com/css/sf-compact-display?styles=16092" rel="stylesheet">
-  <link href="https://db.onlinewebfonts.com/c/1e8a3c6b4719703b200378c73c3bf6e4?family=SF+Compact+Text+Bold"
-    rel="stylesheet">
-  <link href="https://fonts.cdnfonts.com/css/sf-compact-rounded" rel="stylesheet">
+  <title>Portfolio/Python - Marlon Hinoran</title>
 
   <!-- Eigenes CSS -->
   <link rel="stylesheet" type="text/css" href="/CSS/style.css">
   <link rel="stylesheet" type="text/css" href="/CSS/project-style.css">
 
-  <!-- Stil für mobile Geräte -->
-  <meta name="mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <link rel="icon" href="/assets/img/logos/MarlonHinoran.png">
 
-  <!-- Open Graph-Meta-Tags -->
-  <meta property="og:title" content="Marlon-Hinoran-Portfolio">
-  <meta property="og:description" content="Beschreibung deiner Website">
-  <meta property="og:image" content="URL_zu_deinem_Thumbnail_Bild">
-  <meta property="og:url" content="URL_deiner_Website">
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-10">
+  <meta name="viewport" content="width=device-width, initial-scale=3.0">
 </head>
 
 <body>
+
   <header>
-    <div class="logo">
-      <a href="/index.html">Marlon Hinoran</a>
-    </div>
-    <div class="nav-links">
-      <a href="https://github.com/AurelDeveloper">GitHub</a>
-      <a href="mailto:hinoran.marlon@gmail.com">Mail</a>
+    <div id="header-container">
+      <div class="logo">
+        <a href="/index.html">Marlon Hinoran</a>
+      </div>
+      <div class="nav-links">
+        <a href="https://github.com/AurelDeveloper">GitHub</a>
+        <a href="mailto:hinoran.marlon@gmail.com">Mail</a>
+      </div>
     </div>
   </header>
 
-  <div class="project-intro">
-    <h1>Learn JavaScript</h1>
-    <div id="left-paragraph">
-      <h3>Project Duration</h3>
-      <p>I created my first node.js project in less than a month because I converted a project I already coded in Python to node.js.</p>
-    </div>
-    <div id="right-paragraph" style="position: relative; top: 5px;">
-      <h3>Why JavaScript?</h3>
-      <p>JS is the most commonly used programming language and is needed to create a sophisticated website</p>
-    </div>
-  </div>
+  <main>
+    <section class="project-intro">
+      <h1>Learn JavaScript</h1>
+      <div id="left-paragraph">
+        <h3>Project Duration</h3>
+        <p>I created my first node.js project in less than a month because I converted a project I already coded in
+          Python to node.js.</p>
+      </div>
+      <div id="right-paragraph" style="position: relative; top: 5px;">
+        <h3>Why JavaScript?</h3>
+        <p>JS is the most commonly used programming language and is needed to create a sophisticated website</p>
+      </div>
+    </section>
 
-  <div id="js-project-box">
-    <div class="js-project-box">
-      <p>IT'S A REPOSITORY</p>
-      <button onclick="window.location.href='https://gist.github.com/AurelDeveloper/6db8cafa383d948d74c404eeff0ab494'">GitHub</button>
-      <button onclick="window.location.href='https://github.com/AurelDeveloper/Po'">Website</button>
-      <h2>GradeBook.js</h2>
-      <img src="/assets/img/logos/GradeBook.png" style="position:relative; top: -50px; left: 300px;">
-    </div>
+    <section id="projects" style="margin-top: -200px;">
+      <a href="https://gist.github.com/AurelDeveloper/6db8cafa383d948d74c404eeff0ab494" class="project-box">
+        <p>IT'S A GIST</p>
+        <h3>GradeBook.js</h3>
+        <img style="margin-left: 140px; position: relative; top: -0px;" src="/assets/img/logos/GradeBook.png">
+      </a>
+    </section>
+  </main>
 
-  <footer style="position: relative; top: 500px;">
+  <footer style="position: relative; top: 700px;">
     &copy; 2023 Marlon Hinoran. All Rights Reserved.
   </footer>
 

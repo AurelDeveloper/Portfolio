@@ -11,17 +11,6 @@ body {
     margin: 0;
 }
 
-.glassmorphism {
-    background: rgba(255, 255, 255, 0.1);
-    /* Semi-transparent white */
-    backdrop-filter: blur(10px);
-    /* Add blur effect */
-    -webkit-backdrop-filter: blur(10px);
-    /* For Safari */
-    border: 1px solid rgba(255, 255, 255, 0.2);
-    /* Optional: Add a border */
-}
-
 /* Styling for h1 tags */
 h1 {
     font-size: 100px;
@@ -66,28 +55,18 @@ header #header-container {
 
 /* Styling for the emoji */
 #emoji {
-    margin-top: 300px;
+    margin-top: 400px;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 0px;
 }
 
-#emoji img {
-    animation: fadeEffect 2s infinite;
-}
-
-@keyframes fadeEffect {
-    0% {opacity: 1;}
-    50% {opacity: 0.5;}
-    100% {opacity: 1;}
-}
-
 /* Intro text styling */
 #intro {
-    margin-top: 200px;
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-top: 400px;
+    margin-left: 400px;
+    margin-right: 400px;
     text-align: left;
 }
 
@@ -114,43 +93,35 @@ header #header-container {
     color: #fff;
     margin: 10px 0;
 }
-
-/* Responsive styling */
-@media screen and (max-width: 1024px) {
-    #intro {
+/*responsive code for intro*/
+@media screen and (max-width: 1000px) {
+    #intro p {
+        font-size: 24px;
         text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: -300px;
+        margin-right: -300px;
+    }
+
+    #intro h1 {
+        font-size: 30px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: -300px;
+        margin-right: -300px;
     }
 
     #status-box {
-        margin-top: 10px;
-    }
-
-    #intro p {
-        font-size: 28px;
-    }
-
-    #intro h1 {
-        font-size: 40px;
-    }
-}
-
-@media screen and (max-width: 768px) {
-    #intro p {
-        font-size: 24px;
-    }
-
-    #intro h1 {
-        font-size: 32px;
-    }
-}
-
-@media screen and (max-width: 480px) {
-    #intro p {
-        font-size: 20px;
-    }
-
-    #intro h1 {
-        font-size: 28px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: -100px;
+        margin-right: -100px;
     }
 }
 
