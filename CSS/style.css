@@ -1,4 +1,4 @@
-@import url('/assets/fonts/SFCompactDisplay/font.css'); 
+@import url('/assets/fonts/SFCompactDisplay/font.css');
 
 /* General styling for the body */
 body {
@@ -11,19 +11,41 @@ body {
     margin: 0;
 }
 
+.glassmorphism {
+    background: rgba(255, 255, 255, 0.1);
+    /* Semi-transparent white */
+    backdrop-filter: blur(10px);
+    /* Add blur effect */
+    -webkit-backdrop-filter: blur(10px);
+    /* For Safari */
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    /* Optional: Add a border */
+}
+
 /* Styling for h1 tags */
 h1 {
     font-size: 100px;
 }
 
 header {
-    color: white;
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-top: 30px;
+    background-color: rgba(29, 29, 31, 0.72);
+    backdrop-filter: saturate(180%) blur(10px);
+    border-bottom: 1px solid grey;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 20px;
     display: flex;
+    z-index: 1000;
+}
+
+header #header-container {
+    color: white;
     justify-content: space-between;
     align-items: center;
+    display: flex;
+    width: 100%;
+    margin-right: 25px;
 }
 
 .logo a {
@@ -43,25 +65,27 @@ header {
 }
 
 /* Styling for the emoji */
-/* Comment added: Styling for the emoji */
 #emoji {
+    margin-top: 300px;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 0px;
 }
 
-/* Styling for the image in the emoji section */
 #emoji img {
-    max-width: 40%;
-    max-height: 40%;
-    position: relative;
-    top: -23%;
+    animation: fadeEffect 2s infinite;
+}
+
+@keyframes fadeEffect {
+    0% {opacity: 1;}
+    50% {opacity: 0.5;}
+    100% {opacity: 1;}
 }
 
 /* Intro text styling */
 #intro {
-    margin: -200px;
+    margin-top: 200px;
     margin-left: 100px;
     margin-right: 100px;
     text-align: left;
@@ -154,6 +178,27 @@ header {
     top: 550px;
     z-index: 1;
     overflow: hidden;
+
+}
+
+.project-box {
+    width: 650px;
+    height: 350px;
+    background: rgba(255, 255, 255, 0.1);
+    /* Semi-transparent white */
+    margin: 20px;
+    border-radius: 15px;
+    padding: 20px;
+    position: relative;
+    top: 550px;
+    z-index: 1;
+    overflow: hidden;
+    backdrop-filter: blur(10px);
+    /* Add blur effect */
+    -webkit-backdrop-filter: blur(10px);
+    /* For Safari */
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    /* Optional: Add a border */
 }
 
 /* Styling for h3 tags in the project box */
@@ -196,9 +241,16 @@ header {
 /* Styling for skill categories */
 .category {
     margin: 20px 0;
-    background-color: #1e1e1e;
+    background: rgba(255, 255, 255, 0.1);
+    /* Semi-transparent white */
     padding: 20px;
     border-radius: 20px;
+    backdrop-filter: blur(10px);
+    /* Add blur effect */
+    -webkit-backdrop-filter: blur(10px);
+    /* For Safari */
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    /* Optional: Add a border */
 }
 
 /* Styling for h2 tags in skill categories */
@@ -251,8 +303,15 @@ header {
     box-sizing: border-box;
     padding: 20px;
     border-radius: 20px;
-    background-color: #1e1e1e;
+    background: rgba(255, 255, 255, 0.1);
+    /* Semi-transparent white */
     margin: 20px;
+    backdrop-filter: blur(10px);
+    /* Add blur effect */
+    -webkit-backdrop-filter: blur(10px);
+    /* For Safari */
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    /* Optional: Add a border */
 }
 
 /* Styling for the download button */
@@ -267,11 +326,12 @@ header {
 
 /* Media Query for smaller screens */
 @media screen and (max-width: 1500px) {
+
     /* Adjust styles for smaller screens */
     .category h2 {
         font-size: 24px;
     }
-    
+
     .skills-container {
         margin-left: 40px;
         margin-right: 40px;
@@ -296,9 +356,16 @@ header {
 /* Footer styling */
 /* Comment added: Footer styling */
 footer {
-    background-color: #1e1e1e;
+    background: rgba(255, 255, 255, 0.1);
+    /* Semi-transparent white */
     color: #fff;
     padding: 30px 50px;
     width: 150%;
     margin-top: 500px;
+    backdrop-filter: blur(10px);
+    /* Add blur effect */
+    -webkit-backdrop-filter: blur(10px);
+    /* For Safari */
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    /* Optional: Add a border */
 }
