@@ -17,15 +17,18 @@ h1 {
 }
 
 header {
-    background-color: rgba(29, 29, 31, 0.72);
-    backdrop-filter: saturate(180%) blur(10px);
-    border-bottom: 1px solid grey;
     position: fixed;
     top: 0;
     width: 100%;
     padding: 20px;
     display: flex;
     z-index: 1000;
+}
+
+header.scrolled {
+    background-color: rgba(18, 18, 18, 0.72);
+    backdrop-filter: saturate(180%) blur(10px);
+    border-bottom: 1px solid grey;
 }
 
 header #header-container {
@@ -72,12 +75,26 @@ header #header-container {
 
 /* Status box in the intro */
 #status-box {
-    background-color: #4CAF50;
-    color: #fff;
-    border-radius: 5px;
-    padding: 10px;
-    display: inline-block;
-    margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 6px 14px;
+        font-family: -apple-system, BlinkMacSystemFont, 'Roboto', sans-serif;
+        border-radius: 6px;
+        border: none;
+
+        color: #fff;
+        background: linear-gradient(180deg, #00931b 0%, #00731f 100%);
+         background-origin: border-box;
+        box-shadow: 0px 0.5px 1.5px rgba(255, 255, 255, 0.25), inset 0px 1.4px 0px -0.25px rgba(255, 255, 255, 0.2);
+        user-select: none;
+        -webkit-user-select: none;
+        touch-action: manipulation;
+      }
+
+      .button-10:focus {
+        box-shadow: inset 0px 0.8px 0px -0.25px rgba(255, 255, 255, 0.2), 0px 0.5px 1.5px rgba(54, 122, 246, 0.25), 0px 0px 0px 3.5px rgba(58, 108, 217, 0.5);
+        outline: 0;
 }
 
 /* Styling for p tags in the intro */
@@ -165,11 +182,6 @@ header #header-container {
     z-index: 1;
     overflow: hidden;
     backdrop-filter: blur(10px);
-    /* Add blur effect */
-    -webkit-backdrop-filter: blur(10px);
-    /* For Safari */
-    border: 1px solid rgba(255, 255, 255, 0.2);
-    /* Optional: Add a border */
 }
 
 /* Styling for h3 tags in the project box */
@@ -213,15 +225,8 @@ header #header-container {
 .category {
     margin: 20px 0;
     background: rgba(255, 255, 255, 0.1);
-    /* Semi-transparent white */
     padding: 20px;
     border-radius: 20px;
-    backdrop-filter: blur(10px);
-    /* Add blur effect */
-    -webkit-backdrop-filter: blur(10px);
-    /* For Safari */
-    border: 1px solid rgba(255, 255, 255, 0.2);
-    /* Optional: Add a border */
 }
 
 /* Styling for h2 tags in skill categories */
@@ -273,26 +278,35 @@ header #header-container {
     width: 30%;
     box-sizing: border-box;
     padding: 20px;
-    border-radius: 20px;
+    border-radius: 10px;
     background: rgba(255, 255, 255, 0.1);
     /* Semi-transparent white */
     margin: 20px;
-    backdrop-filter: blur(10px);
-    /* Add blur effect */
-    -webkit-backdrop-filter: blur(10px);
-    /* For Safari */
-    border: 1px solid rgba(255, 255, 255, 0.2);
-    /* Optional: Add a border */
 }
 
 /* Styling for the download button */
 .download-button {
-    background-color: #000000;
-    color: white;
-    padding: 10px 15px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
+        text-decoration: none;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 6px 14px;
+        font-family: -apple-system, BlinkMacSystemFont, 'Roboto', sans-serif;
+        border-radius: 10px;
+        border: none;
+
+        color: #fff;
+        background: linear-gradient(180deg, #acacac 0%, #969696 100%);
+         background-origin: border-box;
+        box-shadow: 0px 0.5px 1.5px rgba(0, 0, 0, 0.25), inset 0px 1.5px 0px -0.25px rgba(255, 255, 255, 0.2);
+        user-select: none;
+        -webkit-user-select: none;
+        touch-action: manipulation;
+      }
+
+      .button-10:focus {
+        box-shadow: inset 0px 0.8px 0px -0.25px rgba(255, 255, 255, 0.2), 0px 0.5px 1.5px rgba(54, 122, 246, 0.25), 0px 0px 0px 3.5px rgba(58, 108, 217, 0.5);
+        outline: 0;
 }
 
 /* Media Query for smaller screens */
@@ -324,19 +338,10 @@ header #header-container {
     }
 }
 
-/* Footer styling */
-/* Comment added: Footer styling */
 footer {
     background: rgba(255, 255, 255, 0.1);
-    /* Semi-transparent white */
     color: #fff;
     padding: 30px 50px;
     width: 150%;
     margin-top: 500px;
-    backdrop-filter: blur(10px);
-    /* Add blur effect */
-    -webkit-backdrop-filter: blur(10px);
-    /* For Safari */
-    border: 1px solid rgba(255, 255, 255, 0.2);
-    /* Optional: Add a border */
 }

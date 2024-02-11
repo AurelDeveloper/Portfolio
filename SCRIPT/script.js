@@ -11,3 +11,8 @@ $(document).ready(function(){
         arrows: false, /* Disable previous/next arrows */
     });
 });
+
+window.addEventListener("scroll", function() {
+    var header = document.querySelector("header");
+    header.classList.toggle("scrolled", window.scrollY > 0);
+});
