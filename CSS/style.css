@@ -169,21 +169,6 @@ header #header-container {
 
 }
 
-.project-box {
-    width: 650px;
-    height: 350px;
-    background: rgba(255, 255, 255, 0.1);
-    /* Semi-transparent white */
-    margin: 20px;
-    border-radius: 15px;
-    padding: 20px;
-    position: relative;
-    top: 550px;
-    z-index: 1;
-    overflow: hidden;
-    backdrop-filter: blur(10px);
-}
-
 /* Styling for h3 tags in the project box */
 .project-box h3 {
     color: #fff;
@@ -216,7 +201,7 @@ header #header-container {
 /* Styling for the skill bar box */
 .skills-container {
     margin: 20px;
-    margin-top: 2200px;
+    margin-top: 2700px;
     margin-right: 400px;
     margin-left: 400px;
 }
