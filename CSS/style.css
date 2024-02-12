@@ -62,12 +62,12 @@ header #header-container {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 0px;
+
 }
 
 /* Intro text styling */
 #intro {
-    margin-top: 400px;
+    margin-top: 200px;
     margin-left: 400px;
     margin-right: 400px;
     text-align: left;
@@ -139,6 +139,7 @@ header #header-container {
         align-items: center;
         margin-left: -100px;
         margin-right: -100px;
+        margin-top: 100px;
     }
 }
 
@@ -163,7 +164,7 @@ header #header-container {
     border-radius: 15px;
     padding: 20px;
     position: relative;
-    top: 550px;
+    top: 450px;
     z-index: 1;
     overflow: hidden;
 
