@@ -1,6 +1,5 @@
 @import url('/assets/fonts/SFCompactDisplay/font.css');
 
-/* General styling for the body */
 body {
     background-color: #000000;
     color: #fff;
@@ -11,7 +10,6 @@ body {
     margin: 0;
 }
 
-/* Styling for h1 tags */
 h1 {
     font-size: 100px;
 }
@@ -56,61 +54,60 @@ header #header-container {
     margin-right: 10px;
 }
 
-/* Styling for the emoji */
-#emoji {
-    margin-top: 400px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-}
-
-/* Intro text styling */
-#intro {
+#intro-image {
+    display: block;
+    max-width: 500px;
+    height: auto;
+    margin: 0 auto 20px;
     margin-top: 200px;
-    margin-left: 400px;
-    margin-right: 400px;
-    text-align: left;
 }
 
-/* Status box in the intro */
+#intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 30vh;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
 #status-box {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        padding: 6px 14px;
-        font-family: -apple-system, BlinkMacSystemFont, 'Roboto', sans-serif;
-        border-radius: 6px;
-        border: none;
-
-        color: #fff;
-        background: linear-gradient(180deg, #00931b 0%, #00731f 100%);
-         background-origin: border-box;
-        box-shadow: 0px 0.5px 1.5px rgba(255, 255, 255, 0.25), inset 0px 1.4px 0px -0.25px rgba(255, 255, 255, 0.2);
-        user-select: none;
-        -webkit-user-select: none;
-        touch-action: manipulation;
-      }
-
-      .button-10:focus {
-        box-shadow: inset 0px 0.8px 0px -0.25px rgba(255, 255, 255, 0.2), 0px 0.5px 1.5px rgba(54, 122, 246, 0.25), 0px 0px 0px 3.5px rgba(58, 108, 217, 0.5);
-        outline: 0;
+    display: flex;
+    width: 300px;
+    align-items: center;
+    padding: 6px 14px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Roboto', sans-serif;
+    border-radius: 6px;
+    border: none;
+    color: #fff;
+    background: linear-gradient(180deg, #00931b 0%, #00731f 100%);
+    background-origin: border-box;
+    box-shadow: 0px 0.5px 1.5px rgba(255, 255, 255, 0.25), inset 0px 1.4px 0px -0.25px rgba(255, 255, 255, 0.2);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    margin-top: 100px;
 }
 
-/* Styling for p tags in the intro */
+.button-10:focus {
+    box-shadow: inset 0px 0.8px 0px -0.25px rgba(255, 255, 255, 0.2), 0px 0.5px 1.5px rgba(54, 122, 246, 0.25), 0px 0px 0px 3.5px rgba(58, 108, 217, 0.5);
+    outline: 0;
+}
+
 #intro p {
     font-size: 32px;
     color: #4b4b4b;
     margin: 10px 0;
 }
 
-/* Additional styling for h1 tag */
 #intro h1 {
     font-size: 80px;
     color: #fff;
     margin: 10px 0;
 }
-/*responsive code for intro*/
+
 @media screen and (max-width: 1000px) {
     #intro p {
         font-size: 24px;
@@ -143,8 +140,6 @@ header #header-container {
     }
 }
 
-/* Project box styling */
-/* Comment added: Project box styling */
 #projects {
     position: absolute;
     left: 0;
@@ -155,7 +150,6 @@ header #header-container {
     display: grid;
 }
 
-/* Styling for the project box */
 .project-box {
     width: 650px;
     height: 350px;
@@ -167,10 +161,8 @@ header #header-container {
     top: 450px;
     z-index: 1;
     overflow: hidden;
-
 }
 
-/* Styling for h3 tags in the project box */
 .project-box h3 {
     color: #fff;
     font-size: 40px;
@@ -178,7 +170,6 @@ header #header-container {
     margin-left: 10px;
 }
 
-/* Styling for p tags in the project box */
 .project-box p {
     color: #ffffff;
     font-size: 17px;
@@ -188,7 +179,6 @@ header #header-container {
     margin-bottom: -10px;
 }
 
-/* Styling for images in the project box */
 .project-box img {
     width: 300px;
     height: 300px;
@@ -199,7 +189,6 @@ header #header-container {
     text-align: right;
 }
 
-/* Styling for the skill bar box */
 .skills-container {
     margin: 20px;
     margin-top: 2700px;
@@ -207,7 +196,6 @@ header #header-container {
     margin-left: 400px;
 }
 
-/* Styling for skill categories */
 .category {
     margin: 20px 0;
     background: rgba(255, 255, 255, 0.1);
@@ -215,25 +203,21 @@ header #header-container {
     border-radius: 20px;
 }
 
-/* Styling for h2 tags in skill categories */
 .category h2 {
     font-size: 35px;
     margin-bottom: 15px;
     color: #ffffff;
 }
 
-/* Styling for skills */
 .skill {
     text-align: left;
     margin: 10px 0;
 }
 
-/* Styling for skill names */
 .skill-name {
     font-weight: bold;
 }
 
-/* Styling for skill bars */
 .skill-bar {
     background-color: #ddd;
     height: 30px;
@@ -241,14 +225,12 @@ header #header-container {
     margin-top: 5px;
 }
 
-/* Styling for skill progress */
 .skill-progress {
     background-color: #000000;
     height: 100%;
     border-radius: 50px;
 }
 
-/* Files download box styling */
 .files-box {
     display: flex;
     flex-wrap: wrap;
@@ -259,18 +241,15 @@ header #header-container {
     margin-right: 150px;
 }
 
-/* Styling for the files download box */
 .files-download-box {
     width: 30%;
     box-sizing: border-box;
     padding: 20px;
     border-radius: 10px;
     background: rgba(255, 255, 255, 0.1);
-    /* Semi-transparent white */
     margin: 20px;
 }
 
-/* Styling for the download button */
 .download-button {
         text-decoration: none;
         display: flex;
@@ -280,7 +259,6 @@ header #header-container {
         font-family: -apple-system, BlinkMacSystemFont, 'Roboto', sans-serif;
         border-radius: 10px;
         border: none;
-
         color: #fff;
         background: linear-gradient(180deg, #acacac 0%, #969696 100%);
          background-origin: border-box;
@@ -295,10 +273,8 @@ header #header-container {
         outline: 0;
 }
 
-/* Media Query for smaller screens */
 @media screen and (max-width: 1500px) {
 
-    /* Adjust styles for smaller screens */
     .category h2 {
         font-size: 24px;
     }
