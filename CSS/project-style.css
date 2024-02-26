@@ -1,5 +1,17 @@
 @import url('/assets/fonts/SFCompactDisplay/font.css');
 
+@import url('/assets/fonts/SFCompactDisplay/font.css');
+
+body {
+    background-color: #000000;
+    color: #fff;
+    font-family: 'SF Compact', sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: left;
+    margin: 0;
+}
+
 /* Project Intro */
 .project-intro {
     margin: 0;
