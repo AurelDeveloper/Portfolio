@@ -3,10 +3,10 @@
   "version": "0.1.0",
   "private": false,
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "fmt": "pnpm rome check . --apply-unsafe && pnpm rome format . --write"
+    "dev": "npm dev",
+    "build": "npm build",
+    "start": "npm start",
+    "fmt": "rome check . --apply-unsafe && rome format . --write"
   },
   "dependencies": {
     "@next/font": "^13.5.4",
@@ -16,7 +16,7 @@
     "framer-motion": "^10.16.4",
     "lucide-react": "^0.284.0",
     "markdown-wasm": "^1.2.0",
-    "next": "^14.2.0-canary.6",
+    "next": "^13.5.6",
     "next-contentlayer": "^0.3.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
@@ -40,16 +40,5 @@
     "rome": "^12.1.3",
     "tailwindcss": "^3.3.3",
     "tailwindcss-debug-screens": "^2.2.1"
-  },
-  "pnpm": {
-    "overrides": {
-      "@opentelemetry/api": "1.4.1",
-      "@opentelemetry/core": "1.13.0",
-      "@opentelemetry/exporter-trace-otlp-grpc": "0.39.1",
-      "@opentelemetry/resources": "1.13.0",
-      "@opentelemetry/sdk-trace-base": "1.13.0",
-      "@opentelemetry/sdk-trace-node": "1.13.0",
-      "@opentelemetry/semantic-conventions": "1.13.0"
-    }
   }
 }
