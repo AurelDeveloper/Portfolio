@@ -2,6 +2,7 @@
 
 import projects__basicElectronReactBoilerplateMdx from './projects__basic-electron-react-boilerplate.mdx.json' assert { type: 'json' }
 import projects__calculatorMdx from './projects__calculator.mdx.json' assert { type: 'json' }
+import projects__electronReactShadcnuiBoilerplateMdx from './projects__electron-react-shadcnui-boilerplate.mdx.json' assert { type: 'json' }
 import projects__gradeBookJsMdx from './projects__grade-book-js.mdx.json' assert { type: 'json' }
 import projects__gradeBookPyMdx from './projects__grade-book-py.mdx.json' assert { type: 'json' }
 import projects__historyCleanerMdx from './projects__history-cleaner.mdx.json' assert { type: 'json' }
@@ -10,6 +11,5 @@ import projects__portfolioMdx from './projects__portfolio.mdx.json' assert { typ
 import projects__swissMeteoStationsDbMdx from './projects__swiss-meteo-stations-db.mdx.json' assert { type: 'json' }
 import projects__swissSnowFinderSrvMdx from './projects__swiss-snow-finder-srv.mdx.json' assert { type: 'json' }
 import projects__winCalculatorMdx from './projects__win-calculator.mdx.json' assert { type: 'json' }
-import projects__electronReactShadcnuiBoilerplateMdx from './projects__electron-react-shadcnui-boilerplate.mdx.json' assert { type: 'json' }
 
-export const allProjects = [projects__basicElectronReactBoilerplateMdx, projects__calculatorMdx, projects__gradeBookJsMdx, projects__gradeBookPyMdx, projects__historyCleanerMdx, projects__matrixMdx, projects__portfolioMdx, projects__swissMeteoStationsDbMdx, projects__swissSnowFinderSrvMdx, projects__winCalculatorMdx, projects__electronReactShadcnuiBoilerplateMdx]
+export const allProjects = [projects__basicElectronReactBoilerplateMdx, projects__calculatorMdx, projects__electronReactShadcnuiBoilerplateMdx, projects__gradeBookJsMdx, projects__gradeBookPyMdx, projects__historyCleanerMdx, projects__matrixMdx, projects__portfolioMdx, projects__swissMeteoStationsDbMdx, projects__swissSnowFinderSrvMdx, projects__winCalculatorMdx]

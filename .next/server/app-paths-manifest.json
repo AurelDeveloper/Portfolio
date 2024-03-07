@@ -1,5 +1,10 @@
 {
+<<<<<<< HEAD
   "/page": "app/page.js",
   "/projects/page": "app/projects/page.js",
   "/projects/[slug]/page": "app/projects/[slug]/page.js"
+=======
+  "/not-found": "app/not-found.js",
+  "/page": "app/page.js"
+>>>>>>> bd19e51 (.)
 }

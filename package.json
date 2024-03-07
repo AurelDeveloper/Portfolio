@@ -1,7 +1,6 @@
 {
   "name": "marlon-hinoran",
   "version": "0.1.0",
-  "private": false,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -10,15 +9,18 @@
   "dependencies": {
     "@next/font": "^13.5.4",
     "@next/mdx": "^13.5.4",
+    "@nextui-org/react": "^2.2.10",
     "@upstash/redis": "^1.23.3",
     "contentlayer": "^0.3.4",
-    "framer-motion": "^10.16.4",
+    "framer-motion": "^10.18.0",
+    "github-calendar": "^2.3.3",
     "lucide-react": "^0.284.0",
     "markdown-wasm": "^1.2.0",
     "next": "^13.5.6",
     "next-contentlayer": "^0.3.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-github-calendar": "^4.1.2",
     "react-wrap-balancer": "^1.1.0",
     "rehype-autolink-headings": "^7.0.0",
     "rehype-pretty-code": "^0.10.1",
