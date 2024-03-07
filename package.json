@@ -3,10 +3,9 @@
   "version": "0.1.0",
   "private": false,
   "scripts": {
-    "dev": "npm dev",
-    "build": "npm build",
-    "start": "npm start",
-    "fmt": "rome check . --apply-unsafe && rome format . --write"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
   },
   "dependencies": {
     "@next/font": "^13.5.4",
