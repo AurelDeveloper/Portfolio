@@ -1,7 +1,6 @@
 {
   "sortedMiddleware": [],
   "middleware": {},
-<<<<<<< HEAD
   "functions": {
     "/api/incr": {
       "files": [
@@ -20,8 +19,5 @@
       "assets": []
     }
   },
-=======
-  "functions": {},
->>>>>>> bd19e51 (.)
   "version": 2
 }
