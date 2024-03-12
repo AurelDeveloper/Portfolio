@@ -3,7 +3,7 @@
 Welcome to my personal portfolio! 🚀 In this project, I've utilized the power of Next.js, Tailwind CSS, and React to showcase my skills and projects. 🌐
 
 ## Demo 
-https://portfolio-fawn-eta-99.vercel.app/projects
+https://portfolio-fawn-eta-99.vercel.app/
 
 ## Technologies Used 🛠️
 - **Next.js**: Building fast and scalable React applications.
