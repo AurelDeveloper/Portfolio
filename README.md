@@ -22,7 +22,7 @@ To run this project locally, follow these steps:
 
 2. Install dependencies:
    ```bash
-   cd your-portfolio
+   cd portfolio
    npm install
    ```
 
