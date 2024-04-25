@@ -1,6 +1,6 @@
 # My Portfolio
 
-Welcome to my personal portfolio! In this project, I've utilized the power of Next.js, Tailwind CSS, and React to showcase my skills and projects. 🌐
+Welcome to my personal portfolio! In this project, I've utilized the power of Next.js, Tailwind CSS, and React to showcase my skills and projects.
 
 ## Demo 
 https://portfolio-fawn-eta-99.vercel.app/
@@ -36,7 +36,7 @@ To run this project locally, follow these steps:
 
 4. Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-## Project Structure 📁
+## Project Structure
 - **`/pages`**: Next.js pages for the layout and the home page.
 - **`/pages/projects, contact`**: Directory for the different pages.
 - **`/components`**: Reusable React components.
