@@ -1,6 +1,6 @@
-# My Portfolio 👨‍💻
+# My Portfolio
 
-Welcome to my personal portfolio! 🚀 In this project, I've utilized the power of Next.js, Tailwind CSS, and React to showcase my skills and projects. 🌐
+Welcome to my personal portfolio! In this project, I've utilized the power of Next.js, Tailwind CSS, and React to showcase my skills and projects. 🌐
 
 ## Demo 
 https://portfolio-fawn-eta-99.vercel.app/
@@ -10,12 +10,12 @@ https://portfolio-fawn-eta-99.vercel.app/
 - **Tailwind CSS**: Crafting stylish and responsive user interfaces effortlessly.
 - **React**: Creating interactive and dynamic components.
 
-## Features ✨
+## Features
 1. **Responsive Design**: Ensuring a seamless experience across various devices.
 2. **Project Showcase**: Highlighting my diverse range of projects.
 4. **Contact Possibilities**: Easy ways to get in touch with me.
 
-## Getting Started 🚀
+## Getting Started
 To run this project locally, follow these steps:
 
 1. Clone the repository:
