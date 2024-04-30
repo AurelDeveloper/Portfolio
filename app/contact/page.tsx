@@ -6,12 +6,6 @@ import { Card } from "../components/card";
 
 const socials = [
 	{
-		icon: <Twitch size={20} />,
-		href: "https://www.twitch.tv/aurelcode",
-		label: "Twitch",
-		handle: "AurelCode",
-	},
-	{
 		icon: <Mail size={20} />,
 		href: "mailto:hinoran.marlon@gmail.com",
 		label: "Email",
