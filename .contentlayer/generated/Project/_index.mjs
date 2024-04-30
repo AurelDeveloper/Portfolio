@@ -6,6 +6,8 @@ import projects__electronReactShadcnuiBoilerplateMdx from './projects__electron-
 import projects__gradeBookJsMdx from './projects__grade-book-js.mdx.json' assert { type: 'json' }
 import projects__gradeBookPyMdx from './projects__grade-book-py.mdx.json' assert { type: 'json' }
 import projects__historyCleanerMdx from './projects__history-cleaner.mdx.json' assert { type: 'json' }
+import projects__letterDisplayDatabaseMdx from './projects__letter-display-database.mdx.json' assert { type: 'json' }
+import projects__letterDisplayMdx from './projects__letter-display.mdx.json' assert { type: 'json' }
 import projects__logsHubMdx from './projects__logs-hub.mdx.json' assert { type: 'json' }
 import projects__matrixMdx from './projects__matrix.mdx.json' assert { type: 'json' }
 import projects__portfolioMdx from './projects__portfolio.mdx.json' assert { type: 'json' }
@@ -14,4 +16,4 @@ import projects__swissSnowFinderSrvMdx from './projects__swiss-snow-finder-srv.m
 import projects__webModeAnalyserMdx from './projects__web-mode-analyser.mdx.json' assert { type: 'json' }
 import projects__winCalculatorMdx from './projects__win-calculator.mdx.json' assert { type: 'json' }
 
-export const allProjects = [projects__basicElectronReactBoilerplateMdx, projects__calculatorMdx, projects__electronReactShadcnuiBoilerplateMdx, projects__gradeBookJsMdx, projects__gradeBookPyMdx, projects__historyCleanerMdx, projects__logsHubMdx, projects__matrixMdx, projects__portfolioMdx, projects__swissMeteoStationsDbMdx, projects__swissSnowFinderSrvMdx, projects__webModeAnalyserMdx, projects__winCalculatorMdx]
+export const allProjects = [projects__basicElectronReactBoilerplateMdx, projects__calculatorMdx, projects__electronReactShadcnuiBoilerplateMdx, projects__gradeBookJsMdx, projects__gradeBookPyMdx, projects__historyCleanerMdx, projects__letterDisplayDatabaseMdx, projects__letterDisplayMdx, projects__logsHubMdx, projects__matrixMdx, projects__portfolioMdx, projects__swissMeteoStationsDbMdx, projects__swissSnowFinderSrvMdx, projects__webModeAnalyserMdx, projects__winCalculatorMdx]

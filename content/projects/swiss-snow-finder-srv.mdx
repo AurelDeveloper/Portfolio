@@ -6,36 +6,111 @@ published: true
 repository: AurelDeveloper/SwissSnowFinderSRV
 ---
 
-SwissSnowFinderSRV is your ultimate server script for discovering ski stations with the best snow conditions in Switzerland.
+**Note**: I won't continue developing this project for the moment as summer approaches, and it's not good to conduct tests.
 
-### Building Steps
+## Functions
 
-1. **Create Ski Station Information Table:**
-   - Develop a table containing crucial ski station details, including name, coordinates, and region.
+- **weather.py:** Fetches the list of all ski stations in Switzerland. The list is stored in a Postgres table in the Supabase database. It runs on GitHub Actions.
 
-2. **Establish API Request Mechanism:**
-   - Set up a robust API request mechanism to fetch the ski stations' table.
-   - Initiate API requests for all ski station coordinates, aggregating the results into another comprehensive table.
+## Views
 
-3. **Implement SQL View for Meteorological Data:**
-   - Integrate an SQL view to generate a summarized timeline of all meteorological data from the ski stations.
-   - Enable subscriptions for snow accumulation notifications triggered by high temperatures.
+- #### `cumulative_snowfall`
+Generates a summary of the snowfall from the last 12 hours, last day, and last 3 days.
 
-4. **Devise Snow Identification Algorithm:**
-   - Develop a smart algorithm to identify the ski station with the most snow in the user's chosen region, leveraging data from the SQL view.
+- #### `regions_recommendations`
+Finds the best ski station for every region in Switzerland.
 
-### Getting Started
+- #### `users_recommendations`
+Connects the region that the user has chosen with the best ski station for this region.
 
-1. **Clone the Repository:**
-   ```bash
-   git clone https://github.com/AurelDeveloper/SwissSnowFinderSRV.git
-   ```
+## Tables
 
-2. **Navigate to the Project Directory:**
-   ```bash
-   cd SwissSnowFinderSRV
-   ```
+- ### `user_preferences`
+``` sql
+create table
+  public.users_preferences (
+    id serial,
+    user_id uuid not null,
+    region_id integer not null,
+    constraint users_preferences_pkey primary key (id),
+    constraint users_preferences_region_id_fkey foreign key (region_id) references regions (id),
+    constraint users_preferences_user_id_fkey foreign key (user_id) references users (id)
+  ) tablespace pg_default;
+```
 
-### License
+- ### `users`
+``` sql
+create table
+  public.users (
+    id uuid not null default gen_random_uuid (),
+    aud text null,
+    role text null,
+    email text null,
+    confirmed_at timestamp with time zone null,
+    last_sign_in_at timestamp with time zone null,
+    app_metadata jsonb null,
+    user_metadata jsonb null,
+    created_at timestamp with time zone null default now(),
+    updated_at timestamp with time zone null default now(),
+    constraint users_pkey primary key (id),
+    constraint users_aud_check check ((char_length(aud) > 0)),
+    constraint users_email_check check ((char_length(email) > 0)),
+    constraint users_role_check check ((char_length(role) > 0))
+  ) tablespace pg_default;
+```
 
-This project is licensed under the [GNU General Public License v3.0](LICENSE).
+- ### `weathers`
+``` sql
+create table
+  public.weathers (
+    id serial,
+    skistation_id integer not null,
+    temperature numeric(5, 2) null,
+    wind_speed numeric(5, 2) null,
+    snow numeric(5, 2) null,
+    timestamp timestamp without time zone not null,
+    visibility integer null,
+    clouds integer null,
+    weather_main text null,
+    weather_description text null,
+    constraint weathers_pkey primary key (id),
+    constraint weathers_skistation_id_fkey foreign key (skistation_id) references skistations (id)
+  ) tablespace pg_default;
+```
+
+- ### `skistations`
+``` sql
+create table
+  public.skistations (
+    id serial,
+    name text not null,
+    region_id integer not null,
+    latitude real not null,
+    longitude real not null,
+    constraint skistations_pkey primary key (id),
+    constraint skistations_region_id_fkey foreign key (region_id) references regions (id)
+  ) tablespace pg_default;
+```
+
+- ### `regions`
+``` sql
+create table
+  public.regions (
+    id serial,
+    name text not null,
+    constraint regions_pkey primary key (id)
+  ) tablespace pg_default;
+```
+  
+
+## Tech Stack
+
+**Server:** Supabase, GitHub Actions, OpenWeather API
+
+## Roadmap
+
+- Import the list of all ski stations in Switzerland with their coordinates and regions.
+- Import the list of all regions (cantons) in Switzerland.
+- Create the app.
+- Create the user backend.
+- Setup github actions to run the `weathers.py`.
