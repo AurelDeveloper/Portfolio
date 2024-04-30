@@ -15,5 +15,6 @@ import projects__swissMeteoStationsDbMdx from './projects__swiss-meteo-stations-
 import projects__swissSnowFinderSrvMdx from './projects__swiss-snow-finder-srv.mdx.json' assert { type: 'json' }
 import projects__webModeAnalyserMdx from './projects__web-mode-analyser.mdx.json' assert { type: 'json' }
 import projects__winCalculatorMdx from './projects__win-calculator.mdx.json' assert { type: 'json' }
+import projects__zeroToOneSummaryLatexMdx from './projects__zero-to-one-summary-latex.mdx.json' assert { type: 'json' }
 
-export const allProjects = [projects__basicElectronReactBoilerplateMdx, projects__calculatorMdx, projects__electronReactShadcnuiBoilerplateMdx, projects__gradeBookJsMdx, projects__gradeBookPyMdx, projects__historyCleanerMdx, projects__letterDisplayDatabaseMdx, projects__letterDisplayMdx, projects__logsHubMdx, projects__matrixMdx, projects__portfolioMdx, projects__swissMeteoStationsDbMdx, projects__swissSnowFinderSrvMdx, projects__webModeAnalyserMdx, projects__winCalculatorMdx]
+export const allProjects = [projects__basicElectronReactBoilerplateMdx, projects__calculatorMdx, projects__electronReactShadcnuiBoilerplateMdx, projects__gradeBookJsMdx, projects__gradeBookPyMdx, projects__historyCleanerMdx, projects__letterDisplayDatabaseMdx, projects__letterDisplayMdx, projects__logsHubMdx, projects__matrixMdx, projects__portfolioMdx, projects__swissMeteoStationsDbMdx, projects__swissSnowFinderSrvMdx, projects__webModeAnalyserMdx, projects__winCalculatorMdx, projects__zeroToOneSummaryLatexMdx]
