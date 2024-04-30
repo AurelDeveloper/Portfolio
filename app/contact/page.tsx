@@ -1,10 +1,16 @@
 "use client";
-import { Github, Mail, Twitch } from "lucide-react";
+import { Github, Mail, Youtube } from "lucide-react";
 import Link from "next/link";
 import { Navigation } from "../components/nav";
 import { Card } from "../components/card";
 
 const socials = [
+	{
+		icon: <Youtube size={20} />,
+		href: "https://www.youtube.com/channel/UCbFx4MtG_mUvv5vgPMFlsUA",
+		label: "Twitch",
+		handle: "AurelCode",
+	},
 	{
 		icon: <Mail size={20} />,
 		href: "mailto:hinoran.marlon@gmail.com",
