@@ -8,8 +8,8 @@ const socials = [
 	{
 		icon: <Youtube size={20} />,
 		href: "https://www.youtube.com/channel/UCbFx4MtG_mUvv5vgPMFlsUA",
-		label: "Twitch",
-		handle: "AurelCode",
+		label: "Youtube",
+		handle: "Aurel",
 	},
 	{
 		icon: <Mail size={20} />,
