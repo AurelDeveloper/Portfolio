@@ -5,29 +5,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="17ffcc12-6335-4171-ae69-a0265b760eaa" name="Changes" comment=".">
-      <change afterPath="$PROJECT_DIR$/.contentlayer/generated/Project/projects__web-mode-analyser.mdx.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/projects/web-mode-analyser.mdx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.contentlayer/.cache/v0.3.4/data-AD7PLTJR.json" beforeDir="false" afterPath="$PROJECT_DIR$/.contentlayer/.cache/v0.3.4/data-AD7PLTJR.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.contentlayer/generated/Project/_index.json" beforeDir="false" afterPath="$PROJECT_DIR$/.contentlayer/generated/Project/_index.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.contentlayer/generated/Project/_index.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/.contentlayer/generated/Project/_index.mjs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.contentlayer/generated/Project/projects__basic-electron-react-boilerplate.mdx.json" beforeDir="false" afterPath="$PROJECT_DIR$/.contentlayer/generated/Project/projects__basic-electron-react-boilerplate.mdx.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.contentlayer/generated/Project/projects__calculator.mdx.json" beforeDir="false" afterPath="$PROJECT_DIR$/.contentlayer/generated/Project/projects__calculator.mdx.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.contentlayer/generated/Project/projects__electron-react-shadcnui-boilerplate.mdx.json" beforeDir="false" afterPath="$PROJECT_DIR$/.contentlayer/generated/Project/projects__electron-react-shadcnui-boilerplate.mdx.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.contentlayer/generated/Project/projects__grade-book-js.mdx.json" beforeDir="false" afterPath="$PROJECT_DIR$/.contentlayer/generated/Project/projects__grade-book-js.mdx.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.contentlayer/generated/Project/projects__grade-book-py.mdx.json" beforeDir="false" afterPath="$PROJECT_DIR$/.contentlayer/generated/Project/projects__grade-book-py.mdx.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.contentlayer/generated/Project/projects__history-cleaner.mdx.json" beforeDir="false" afterPath="$PROJECT_DIR$/.contentlayer/generated/Project/projects__history-cleaner.mdx.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.contentlayer/generated/Project/projects__letter-display-database.mdx.json" beforeDir="false" afterPath="$PROJECT_DIR$/.contentlayer/generated/Project/projects__letter-display-database.mdx.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.contentlayer/generated/Project/projects__letter-display.mdx.json" beforeDir="false" afterPath="$PROJECT_DIR$/.contentlayer/generated/Project/projects__letter-display.mdx.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.contentlayer/generated/Project/projects__logs-hub.mdx.json" beforeDir="false" afterPath="$PROJECT_DIR$/.contentlayer/generated/Project/projects__logs-hub.mdx.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.contentlayer/generated/Project/projects__matrix.mdx.json" beforeDir="false" afterPath="$PROJECT_DIR$/.contentlayer/generated/Project/projects__matrix.mdx.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.contentlayer/generated/Project/projects__portfolio.mdx.json" beforeDir="false" afterPath="$PROJECT_DIR$/.contentlayer/generated/Project/projects__portfolio.mdx.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.contentlayer/generated/Project/projects__swiss-meteo-stations-db.mdx.json" beforeDir="false" afterPath="$PROJECT_DIR$/.contentlayer/generated/Project/projects__swiss-meteo-stations-db.mdx.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.contentlayer/generated/Project/projects__swiss-snow-finder-srv.mdx.json" beforeDir="false" afterPath="$PROJECT_DIR$/.contentlayer/generated/Project/projects__swiss-snow-finder-srv.mdx.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.contentlayer/generated/Project/projects__web-mode-analyser.mdx.json" beforeDir="false" afterPath="$PROJECT_DIR$/.contentlayer/generated/Project/projects__web-mode-analyser.mdx.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.contentlayer/generated/Project/projects__win-calculator.mdx.json" beforeDir="false" afterPath="$PROJECT_DIR$/.contentlayer/generated/Project/projects__win-calculator.mdx.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.env.local" beforeDir="false" afterPath="$PROJECT_DIR$/.env.local" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Portfolio.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Portfolio.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.contentlayer/generated/Project/projects__zero-to-one-summary-latex.mdx.json" beforeDir="false" afterPath="$PROJECT_DIR$/.contentlayer/generated/Project/projects__zero-to-one-summary-latex.mdx.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/app-build-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/.next/app-build-manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/build-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/.next/build-manifest.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.next/cache/webpack/client-development/0.pack.gz" beforeDir="false" afterPath="$PROJECT_DIR$/.next/cache/webpack/client-development/0.pack.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.next/cache/webpack/client-development/1.pack.gz" beforeDir="false" afterPath="$PROJECT_DIR$/.next/cache/webpack/client-development/1.pack.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/cache/webpack/client-development/2.pack.gz" beforeDir="false" afterPath="$PROJECT_DIR$/.next/cache/webpack/client-development/2.pack.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.next/cache/webpack/client-development/index.pack.gz" beforeDir="false" afterPath="$PROJECT_DIR$/.next/cache/webpack/client-development/index.pack.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.next/cache/webpack/client-development/index.pack.gz.old" beforeDir="false" afterPath="$PROJECT_DIR$/.next/cache/webpack/client-development/index.pack.gz.old" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.next/cache/webpack/server-development/0.pack.gz" beforeDir="false" afterPath="$PROJECT_DIR$/.next/cache/webpack/server-development/0.pack.gz" afterDir="false" />
@@ -35,36 +36,94 @@
       <change beforePath="$PROJECT_DIR$/.next/cache/webpack/server-development/2.pack.gz" beforeDir="false" afterPath="$PROJECT_DIR$/.next/cache/webpack/server-development/2.pack.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.next/cache/webpack/server-development/index.pack.gz" beforeDir="false" afterPath="$PROJECT_DIR$/.next/cache/webpack/server-development/index.pack.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.next/cache/webpack/server-development/index.pack.gz.old" beforeDir="false" afterPath="$PROJECT_DIR$/.next/cache/webpack/server-development/index.pack.gz.old" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/server/app/page.js" beforeDir="false" afterPath="$PROJECT_DIR$/.next/server/app/page.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/server/app/page_client-reference-manifest.js" beforeDir="false" afterPath="$PROJECT_DIR$/.next/server/app/page_client-reference-manifest.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/server/app/projects/page.js" beforeDir="false" afterPath="$PROJECT_DIR$/.next/server/app/projects/page.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/server/app/projects/page_client-reference-manifest.js" beforeDir="false" afterPath="$PROJECT_DIR$/.next/server/app/projects/page_client-reference-manifest.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/server/app-paths-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/.next/server/app-paths-manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/server/app/_not-found_client-reference-manifest.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/server/app/not-found.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/server/app/not-found_client-reference-manifest.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/server/app/projects/[slug]/page.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/server/app/projects/[slug]/page_client-reference-manifest.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/server/app/projects/page.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/server/app/projects/page_client-reference-manifest.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/server/edge-runtime-webpack.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/server/middleware-build-manifest.js" beforeDir="false" afterPath="$PROJECT_DIR$/.next/server/middleware-build-manifest.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/server/middleware-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/.next/server/middleware-manifest.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.next/server/next-font-manifest.js" beforeDir="false" afterPath="$PROJECT_DIR$/.next/server/next-font-manifest.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.next/server/next-font-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/.next/server/next-font-manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/server/pages-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/.next/server/pages-manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/server/pages/_app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/server/pages/_document.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/server/pages/_error.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/server/pages/api/incr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/server/static/webpack/633457081244afec._.hot-update.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/server/vendor-chunks/@contentlayer.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.next/server/vendor-chunks/@emotion.js" beforeDir="false" afterPath="$PROJECT_DIR$/.next/server/vendor-chunks/@emotion.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.next/server/vendor-chunks/@next.js" beforeDir="false" afterPath="$PROJECT_DIR$/.next/server/vendor-chunks/@next.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.next/server/vendor-chunks/@swc.js" beforeDir="false" afterPath="$PROJECT_DIR$/.next/server/vendor-chunks/@swc.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/server/vendor-chunks/@upstash.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/server/vendor-chunks/contentlayer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/server/vendor-chunks/crypto-js.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.next/server/vendor-chunks/framer-motion.js" beforeDir="false" afterPath="$PROJECT_DIR$/.next/server/vendor-chunks/framer-motion.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.next/server/vendor-chunks/lucide-react.js" beforeDir="false" afterPath="$PROJECT_DIR$/.next/server/vendor-chunks/lucide-react.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/server/vendor-chunks/next-contentlayer.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.next/server/vendor-chunks/next.js" beforeDir="false" afterPath="$PROJECT_DIR$/.next/server/vendor-chunks/next.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.next/server/webpack-runtime.js" beforeDir="false" afterPath="$PROJECT_DIR$/.next/server/webpack-runtime.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.next/static/chunks/app-pages-internals.js" beforeDir="false" afterPath="$PROJECT_DIR$/.next/static/chunks/app-pages-internals.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.next/static/chunks/app/layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/.next/static/chunks/app/layout.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/static/chunks/app/page.js" beforeDir="false" afterPath="$PROJECT_DIR$/.next/static/chunks/app/page.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/static/chunks/app/projects/page.js" beforeDir="false" afterPath="$PROJECT_DIR$/.next/static/chunks/app/projects/page.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/chunks/app/not-found.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/chunks/app/projects/[slug]/page.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/chunks/app/projects/layout.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/chunks/app/projects/page.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.next/static/chunks/main-app.js" beforeDir="false" afterPath="$PROJECT_DIR$/.next/static/chunks/main-app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/chunks/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/chunks/pages/_app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/chunks/pages/_error.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/chunks/react-refresh.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.next/static/chunks/webpack.js" beforeDir="false" afterPath="$PROJECT_DIR$/.next/static/chunks/webpack.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/static/webpack/6ec3e4a756f2d855.webpack.hot-update.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/static/webpack/a1eeb2f2d851742e.webpack.hot-update.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/static/webpack/app/layout.6ec3e4a756f2d855.hot-update.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/static/webpack/app/layout.a1eeb2f2d851742e.hot-update.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/static/webpack/webpack.6ec3e4a756f2d855.hot-update.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/static/webpack/webpack.a1eeb2f2d851742e.hot-update.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/css/app/projects/[slug]/page.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/development/_buildManifest.js" beforeDir="false" afterPath="$PROJECT_DIR$/.next/static/development/_buildManifest.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/webpack/002735716e222f74.webpack.hot-update.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/webpack/0ad39f30a12bc6ba.webpack.hot-update.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/webpack/114247c5054507fd.webpack.hot-update.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/webpack/3d080713bf59d884.webpack.hot-update.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/webpack/4bc2ed931bb81eda.webpack.hot-update.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/webpack/646392384bcf8555.webpack.hot-update.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/webpack/6f260fc7a0aa5763.webpack.hot-update.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/webpack/app/layout.002735716e222f74.hot-update.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/webpack/app/layout.0ad39f30a12bc6ba.hot-update.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/webpack/app/layout.114247c5054507fd.hot-update.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/webpack/app/layout.3d080713bf59d884.hot-update.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/webpack/app/layout.646392384bcf8555.hot-update.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/webpack/app/layout.c3a8ea3b4c161c06.hot-update.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/webpack/app/layout.c4f73b4b77a42a36.hot-update.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/webpack/app/layout.cfeef88eb4fef9a8.hot-update.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/webpack/app/layout.d0b836d0a3a018ac.hot-update.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/webpack/app/layout.d6e58e055c5f269f.hot-update.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/webpack/app/layout.d8f3d01cac376276.hot-update.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/webpack/c3a8ea3b4c161c06.webpack.hot-update.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/webpack/c4f73b4b77a42a36.webpack.hot-update.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/webpack/cfeef88eb4fef9a8.webpack.hot-update.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/webpack/d0b836d0a3a018ac.webpack.hot-update.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/webpack/d6e58e055c5f269f.webpack.hot-update.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/webpack/d8f3d01cac376276.webpack.hot-update.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/webpack/webpack.002735716e222f74.hot-update.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/webpack/webpack.0ad39f30a12bc6ba.hot-update.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/webpack/webpack.114247c5054507fd.hot-update.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/webpack/webpack.3d080713bf59d884.hot-update.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/webpack/webpack.4bc2ed931bb81eda.hot-update.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/webpack/webpack.646392384bcf8555.hot-update.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/webpack/webpack.6f260fc7a0aa5763.hot-update.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/webpack/webpack.c3a8ea3b4c161c06.hot-update.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/webpack/webpack.c4f73b4b77a42a36.hot-update.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/webpack/webpack.cfeef88eb4fef9a8.hot-update.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/webpack/webpack.d0b836d0a3a018ac.hot-update.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/webpack/webpack.d6e58e055c5f269f.hot-update.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/webpack/webpack.d8f3d01cac376276.hot-update.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.next/trace" beforeDir="false" afterPath="$PROJECT_DIR$/.next/trace" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.next/types/app/layout.ts" beforeDir="false" afterPath="$PROJECT_DIR$/.next/types/app/layout.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/types/app/page.ts" beforeDir="false" afterPath="$PROJECT_DIR$/.next/types/app/page.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/types/app/projects/layout.ts" beforeDir="false" afterPath="$PROJECT_DIR$/.next/types/app/projects/layout.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/types/app/projects/page.ts" beforeDir="false" afterPath="$PROJECT_DIR$/.next/types/app/projects/page.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/types/app/projects/[slug]/page.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/types/app/projects/layout.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/types/app/projects/page.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/contact/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/contact/page.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,6 +134,18 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="UPDATE_TYPE" value="REBASE" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "AurelDeveloper"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/AurelDeveloper/Portfolio.git",
+    "accountId": "548fb4d4-d338-4914-9786-6e3f82d8bd23"
+  }
+}]]></component>
   <component name="GoLibraries">
     <option name="indexEntireGoPath" value="true" />
   </component>
@@ -106,13 +177,14 @@
     "git-widget-placeholder": "main",
     "go.import.settings.migrated": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/marlonhinoran/IdeaProjects/Portfolio/content/projects",
+    "last_opened_file_path": "/Users/marlonhinoran/IdeaProjects/Portfolio",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "org.rust.cargo.project.model.impl.CargoExternalSystemProjectAware.subscribe.first.balloon": "",
+    "org.rust.first.attach.projects": "true",
     "org.rust.first.attach.projects.stats": "true",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
@@ -126,7 +198,19 @@
       <recent name="$PROJECT_DIR$/content/projects" />
     </key>
   </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-18abd8497189-intellij.indexing.shared.core-IU-241.14494.240" />
+        <option value="bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-IU-241.14494.240" />
+      </set>
+    </attachedChunks>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SwiftWorkspaceSettings">
+    <option name="detectedToolchain" value="true" />
+    <option name="toolchainPathValue" value="/Library/Developer/CommandLineTools" />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="17ffcc12-6335-4171-ae69-a0265b760eaa" name="Changes" comment="" />
@@ -137,6 +221,7 @@
       <workItem from="1709838562505" duration="15662000" />
       <workItem from="1711305963152" duration="693000" />
       <workItem from="1711313110626" duration="307000" />
+      <workItem from="1714998580185" duration="602000" />
     </task>
     <task id="LOCAL-00001" summary=".">
       <option name="closed" value="true" />

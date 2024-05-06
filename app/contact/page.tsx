@@ -1,15 +1,15 @@
 "use client";
-import { Github, Mail, Youtube } from "lucide-react";
+import { Github, Mail, BookMarked } from "lucide-react";
 import Link from "next/link";
 import { Navigation } from "../components/nav";
 import { Card } from "../components/card";
 
 const socials = [
 	{
-		icon: <Youtube size={20} />,
-		href: "https://www.youtube.com/channel/UCbFx4MtG_mUvv5vgPMFlsUA",
-		label: "Youtube",
-		handle: "Aurel",
+		icon: <BookMarked size={20} />,
+		href: "https://medium.com/@marlon.profils",
+		label: "Medium",
+		handle: "AurelCode",
 	},
 	{
 		icon: <Mail size={20} />,
