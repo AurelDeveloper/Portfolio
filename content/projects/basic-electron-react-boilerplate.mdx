@@ -1,58 +1,61 @@
 ---
 title: spotify_playlist_gen
-description: Basic Electron-React boilerplate to jumpstart your Electron application development with React.
+description: Script that uses Spotipy API to create Spotify playlists with a balanced mix of popular and lesser-known tracks based on specific keywords.
 date: "2024-01-16"
-repository: AurelDeveloper/basic-electron-react-boilerplate
+repository: AurelDeveloper/spotify_playlist_gen
 published: true
 ---
 
-This project is a basic Electron-React boilerplate to help you kickstart your Electron application with React.
+### Spotify Playlist Script
 
-## Getting Started
+This Python script uses the Spotipy library to interact with the Spotify Web API. It searches Spotify for playlists containing specific keywords, collects tracks from these playlists, and creates a new playlist featuring a balanced mix of popular and less popular tracks.
 
-### Prerequisites
+## Prerequisites
+- Python 3.x
+- Spotipy library
+- A Spotify Developer Account
 
-Make sure you have Node.js and npm installed on your machine.
-
-### Installation
-
-1. Clone the repository:
-
-```bash
-git clone https://github.com/AurelDeveloper/electron-react-boilerplate
+## Installation
+1. Install the required packages:
+   ```bash
+   pip install spotipy python-dotenv
    ```
-
-2. Navigate to the project directory:
-
-```bash
-cd electron-react-boilerplate
+2. Create a `.env` file in the same directory as your script with the following content:
+   ```bash
+   SPOTIPY_CLIENT_ID='YourSpotifyClientId'
+   SPOTIPY_CLIENT_SECRET='YourSpotifyClientSecret'
+   SPOTIPY_REDIRECT_URI='http://localhost:3000'
    ```
+   Replace `YourSpotifyClientId`, `YourSpotifyClientSecret`, and `YourRedirectUri` with your own Spotify API credentials.
 
-3. Install dependencies:
+## Authentication
+The script uses OAuth 2.0 authentication to make secure requests to the Spotify API. The credentials are loaded from the `.env` file and used to create a `SpotifyOAuth` object, which is necessary for authentication.
 
-```bash
-npm install
-   ```
+## How the Script Works
 
-### Usage
+1. **Loading Environment Variables**:
+   - `load_dotenv()`: Loads the environment variables from the `.env` file.
 
-To start the application, run:
+2. **Initializing the Spotipy Client Instance**:
+   - `SpotifyOAuth`: Authenticates the user and enables API access.
+   - `spotipy.Spotify`: Creates a Spotipy client instance with the OAuth object.
 
-```bash
-npm start
-```
+3. **Searching for Playlists**:
+   - For each keyword in the `keywords` list, the `search()` method is used to find playlists containing the keyword. The results are collected in `all_playlists`.
 
-This command will build your React application using webpack and launch Electron.
+4. **Removing Duplicates**:
+   - Duplicates are removed by using a dictionary that uses playlist IDs as keys. Only unique playlists are retained.
 
-### Rebuilding
+5. **Collecting Tracks**:
+   - Tracks are collected from each unique playlist. Pagination is used to ensure all tracks are retrieved.
 
-If you make changes to your Electron application or need to rebuild native modules, you can use:
+6. **Separating Tracks by Popularity**:
+   - Tracks are divided into `popular_tracks` and `less_popular_tracks` based on their popularity.
 
-```bash
-npm run rebuild
-```
+7. **Creating a New Playlist**:
+   - A new playlist is created in the user's account.
 
-### Testing
+8. **Adding Tracks to the Playlist**:
+   - Tracks from both `popular_tracks` and `less_popular_tracks` are alternately added to the new playlist to maintain a balance. The process stops once 50 tracks have been added or there are no more tracks to add.
 
-No specific tests are set up in this boilerplate. Feel free to add your own testing setup as needed.
-
+This script automates the process of creating a balanced Spotify playlist based on predefined keywords by searching for public playlists, collecting tracks, and organizing them based on their popularity in a new playlist.
