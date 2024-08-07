@@ -21,8 +21,8 @@ export default async function ProjectsPage() {
   }, {} as Record<string, number>);
 
   const featured = allProjects.find((project) => project.slug === "swiss-snow-finder-srv")!;
-  const top2 = allProjects.find((project) => project.slug === "letter-display")!;
-  const top3 = allProjects.find((project) => project.slug === "letter-display-database")!;
+  const top2 = allProjects.find((project) => project.slug === "spotify_playlist_gen")!;
+  const top3 = allProjects.find((project) => project.slug === "medium_auto_publisher")!;
   const sorted = allProjects
     .filter((p) => p.published)
     .filter(
