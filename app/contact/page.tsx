@@ -7,7 +7,7 @@ import { Card } from "../components/card";
 const socials = [
 	{
 		icon: <BookMarked size={20} />,
-		href: "https://medium.com/@aurel_code",
+		href: "https://medium.com/@marlon_aurel",
 		label: "Medium",
 		handle: "AurelCode",
 	},
